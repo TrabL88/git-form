@@ -6,7 +6,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>search</title>
   </head>
+
   <body>
-    <h1>Поиск</h1>
+    <form action="https://tests.fomenko.top/echo/index.php" method="post">
+      <fieldset>
+        <legend>Расширенный Поиск</legend>
+        <div>
+          <label for="category"></label>
+          <select name="category" id="category">
+            <option value="any">любой</option>
+            <option value="passenger ">легковые</option>
+            <option value="cargo">Грузовые</option>
+            <option value="bus">Автобусы</option>
+          </select>
+        </div>
+        <div>
+          <label for="marca">Марка:</label>
+          <select name="marca" id="marca">
+            <option value="n">----</option>
+            <option value="italy">ALFA ROMEO</option>
+            <option value="Germany">AUDI</option>
+            <option value="Munich">BMW</option>
+            <option value="Romania">DACIA</option>
+            <option value="usa">CHEVROLET</option>
+            <option value="france">CITROEN</option>
+            <option value="ford">FORD</option>
+            <option value="Korea">HYUNDAI</option>
+            <option value="Japan">HONDA</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="body">Кузов:</label>
+          <select name="body" id="body">
+            <option value="s">----</option>
+            <option value="sedan">седан</option>
+            <option value="station wagon">универсал</option>
+            <option value="hatchback">хетчбэк</option>
+            <option value="coupe">купе</option>
+            <option value="SUV">Внедорожник</option>
+            <option value="minivan">Минивэн</option>
+          </select>
+        </div>
+        <div>
+          <label for="region">Регион:</label>
+          <select name="region" id="region">
+            <option value="city">Регион</option>
+            <option value="Kyiv">Киев</option>
+            <option value="dnipro">Днепр</option>
+            <option value="Odessa">Одесса</option>
+            <option value="lviv">Львов</option>
+            <option value="Chernivtsi">Черновцы</option>
+            <option value="Donetsk">Донецк</option>
+            <option value="Kharkiv">Харьков</option>
+          </select>
+        </div>
+        <div>
+          <label for="currency">Цена:</label>
+          <select name="currency" id="currency">
+            <option value="1">цена</option>
+            <option value="2">$0-$500</option>
+            <option value="3">$500-$1000</option>
+            <option value="4">$1000-$3000</option>
+            <option value="5">$3000-$6000</option>
+            <option value="6">$6000-$10000</option>
+            <option value="7">$10000-$15000</option>
+            <option value="8">$15000-$25000</option>
+          </select>
+        </div>
+        <div>
+          <label for="year">Год</label>
+          <select name="year" id="year">
+            <option value="">от</option>
+            <option value="">2022</option>
+            <option value="">2021</option>
+            <option value="">2020</option>
+            <option value="">2019</option>
+            <option value="">2018</option>
+            <option value="">2017</option>
+            <option value="">2016</option>
+            <option value="">2015</option>
+            <option value="">2014</option>
+            <option value="">2013</option>
+          </select>
+
+          <label for="data">-</label>
+          <select name="data" id="data">
+            <option value="">до</option>
+            <option value="">2022</option>
+            <option value="">2021</option>
+            <option value="">2020</option>
+            <option value="">2019</option>
+            <option value="">2018</option>
+            <option value="">2017</option>
+            <option value="">2016</option>
+            <option value="">2015</option>
+            <option value="">2014</option>
+            <option value="">2013</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div>
+          <label>Состояние: </label>
+          <label for="broken"></label>Битая
+          <input type="checkbox" name="broken" id="broken" />
+        </div>
+        <div>
+          <label for="credit"></label>кредит
+          <input type="checkbox" name="credit" id="credit" />
+        </div>
+        <div>
+          <label for="spare-parts"></label>На запчасти
+          <input type="checkbox" name="spare-parts" id="spare-parts" />
+        </div>
+        <div>
+          <label for="fresh"></label>Свежепригнанные
+          <input type="checkbox" name="fresh" id="fresh" />
+        </div>
+        <div>
+          <label>Вид топлива:</label>
+          <label for="petrol"></label>Бензин
+          <input type="radio" name="petrol" id="petrol" />
+        </div>
+        <div>
+          <label for="diesel"></label>Дизель
+          <input type="radio" name="diesel" id="diesel" />
+        </div>
+        <div>
+          <label for="electro"></label>Єлектро
+          <input type="radio" name="electro" id="electro" />
+        </div>
+        <div>
+          <label>Коробка передач: </label>
+          <label for="avt"></label>Автомат
+          <input type="radio" name="avt" id="avt" />
+        </div>
+        <div>
+          <label for="mex"></label>Механика
+          <input type="radio" name="mex" id="mex" />
+        </div>
+        <div>
+          <label for="color">Выберите цвет</label>
+          <select name="color" id="color">
+            <option value="cv">выберите цвет</option>
+            <option value="green">зеленый</option>
+            <option value="red">красный</option>
+            <option value="blue">синий</option>
+            <option value="grey">серый</option>
+            <option value="metallic">металлик</option>
+            <option value="black">черный</option>
+          </select>
+        </div>
+        <div>
+          <label>Комфорт: </label>
+          <label for="lights">фары</label>
+          <input type="checkbox" name="lights" id="lights" />
+        </div>
+        <div>
+          <label for="heated-seats">подогрев сидений</label>
+          <input type="checkbox" name="heated-seats" id="heated-seats" />
+        </div>
+        <div>
+          <label for="luke">люк</label>
+          <input type="checkbox" name="Luke" id="luke" />
+        </div>
+        <div>
+          <label for="conditioner"></label>Кондиционер
+          <input type="checkbox" name="conditioner" id="conditioner" />
+        </div>
+        <div>
+          <label for="leather-interior"></label>Кожаный салон
+          <input
+            type="checkbox"
+            name="leather-interior"
+            id="leather-interior"
+          />
+        </div>
+        <div>
+          <label for="airbags"></label>подушки безопасности
+          <input type="checkbox" name="airbags" id="airbags" />
+        </div>
+        <div>
+          <label for="multimedia"></label>мультимедиа
+          <input type="checkbox" name="multimedia" id="multimedia" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <div>
+          <button name="buy" type="submit">Поиск</button>
+          <button name="res" type="reset">Сбросить</button>
+        </div>
+      </fieldset>
+    </form>
   </body>
 </html>
