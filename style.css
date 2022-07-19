@@ -28,6 +28,7 @@ a[target] {
 .color4.color5 {
   background: chartreuse;
   text-align: center;
+  max-width: 500px;
 }
 div p {
   background: hotpink;
@@ -37,13 +38,16 @@ div p {
 div + p {
   background: aqua;
   text-align: center;
+  max-width: 500px;
 }
 
 #one.color6 {
   background: brown;
   text-align: center;
+  max-width: 500px;
 }
 [class^="top"] {
   background: cadetblue;
   text-align: center;
+  max-width: 500px;
 }
