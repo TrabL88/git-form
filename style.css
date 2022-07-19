@@ -1,0 +1,49 @@
+p {
+  background: yellow;
+  text-align: center;
+  max-width: 500px;
+}
+
+#color1 {
+  background: blue;
+  text-align: center;
+  max-width: 500px;
+}
+.color2 {
+  background: green;
+  text-align: center;
+  max-width: 500px;
+}
+
+p.color3 {
+  background: gray;
+  text-align: center;
+  max-width: 500px;
+}
+a[target] {
+  background: darkolivegreen;
+  text-align: center;
+  max-width: 500px;
+}
+.color4.color5 {
+  background: chartreuse;
+  text-align: center;
+}
+div p {
+  background: hotpink;
+  text-align: center;
+  max-width: 500px;
+}
+div + p {
+  background: aqua;
+  text-align: center;
+}
+
+#one.color6 {
+  background: brown;
+  text-align: center;
+}
+[class^="top"] {
+  background: cadetblue;
+  text-align: center;
+}
