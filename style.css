@@ -1,53 +1,48 @@
-p {
-  background: yellow;
-  text-align: center;
-  max-width: 500px;
+
+
+.header{
+    height: 100px;
+    width: 1000px;
+    background-color: chartreuse;
+    margin:5px;
+    
+   
 }
 
-#color1 {
-  background: blue;
-  text-align: center;
-  max-width: 500px;
-}
-.color2 {
-  background: green;
-  text-align: center;
-  max-width: 500px;
-}
+.main {
+    height: 200px;
+    width:calc(1000px - 500px);
+    background-color: darkgoldenrod;
+    float: left;
+    margin-left: 300px;
+    
+    
 
-p.color3 {
-  background: gray;
-  text-align: center;
-  max-width: 500px;
 }
-a[target] {
-  background: darkolivegreen;
-  text-align: center;
-  max-width: 500px;
-}
-.color4.color5 {
-  background: chartreuse;
-  text-align: center;
-  max-width: 500px;
-}
-div p {
-  background: hotpink;
-  text-align: center;
-  max-width: 500px;
-}
-div + p {
-  background: aqua;
-  text-align: center;
-  max-width: 500px;
-}
+.left {
+    height: 200px;
+    width: 300px;
+background-color: blueviolet;
+float: left;
+margin-left: calc(-1000px + 197px);
 
-#one.color6 {
-  background: brown;
-  text-align: center;
-  max-width: 500px;
+
 }
-[class^="top"] {
-  background: cadetblue;
-  text-align: center;
-  max-width: 500px;
+.right {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    float: left;
+    margin: 5px;
+}
+.footer {
+    height: 100px;
+    width: 1000px;
+    background-color: coral;
+    margin: 10px;
+   
+
+}
+.clearfix {
+    clear: both;
 }
