@@ -1,13 +1,12 @@
-
 .image {
     display: block;
     width: 90%;
     margin: 1em auto;
 }
-
 .soccer {
     width: calc(33.33% - 35px);
     display: inline-block;
     background-color: skyblue;
     margin: 1em;
+    float: right;
 }
