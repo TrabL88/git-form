@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+
+}
+
+h2 {
+    letter-spacing: 0.2em;
+}
+
+.conteiner {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+
+.soccer {
+    width: calc(100% / 3 - 1em);
+}
+
+.wrapper {
+    display: flex;
+}
+
+.header {
+    height: 100px;
+    background-color: #D7EFF6;
+}
+
+.main {
+    width: calc(100% - 500px);
+
+
+}
+
+.left {
+
+    width: 300px;
+    order: -1;
+    background-color: #D7EFF6;
+
+}
+
+.right {
+
+    width: 200px;
+    background-color: #D7EFF6;
+
+}
+
+.footer {
+    height: 100px;
+    background-color: #D7EFF6;
+}
