@@ -45,17 +45,17 @@ h2 {
 }
 
 .main {
-    width: calc(100% - 500px);
+    flex: 6;
 }
 
 .left {
     order: -1;
-    width: 300px;
+    flex: 1.5;
     background-color: #D7EFF6;
 }
 
 .right {
-    width: 200px;
+   flex: 1;
     background-color: #D7EFF6;
 
 }
@@ -68,3 +68,5 @@ h2 {
 
 
 }
+
+
