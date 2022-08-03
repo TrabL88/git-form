@@ -35,12 +35,9 @@ h2 {
 }
 
 .header {
-
     height: 100px;
     background-color: #D7EFF6;
     margin: 1em;
-
-
 
 }
 
@@ -55,18 +52,14 @@ h2 {
 }
 
 .right {
-   flex: 1;
+    flex: 1;
     background-color: #D7EFF6;
 
 }
 
 .footer {
-
     height: 100px;
     background-color: #D7EFF6;
     margin: 1em;
 
-
 }
-
-
