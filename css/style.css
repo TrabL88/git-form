@@ -31,11 +31,17 @@ h2 {
 
 .wrapper {
     display: flex;
+    gap: 1em;
 }
 
 .header {
+
     height: 100px;
     background-color: #D7EFF6;
+    margin: 1em;
+
+
+
 }
 
 .main {
@@ -43,21 +49,22 @@ h2 {
 }
 
 .left {
-
-    width: 300px;
     order: -1;
+    width: 300px;
     background-color: #D7EFF6;
-
 }
 
 .right {
-
     width: 200px;
     background-color: #D7EFF6;
 
 }
 
 .footer {
+
     height: 100px;
     background-color: #D7EFF6;
+    margin: 1em;
+
+
 }
