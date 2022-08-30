@@ -10,7 +10,7 @@
     --font-primary: 'Roboto', sans-serif;
     --letter-spacing: 0.1em;
     --line-height-lg: 1.625;
-    --line-height-sm:1.19;
+    --line-height-sm: 1.19;
 
     --container-main: 1150px;
     --container-small-size: 540px;
@@ -162,13 +162,15 @@ a {
 .process__title {
     font-weight: 500;
     font-size: 32px;
-    line-height: var(--line-height-sm)
+    line-height: var(--line-height-sm);
     margin-bottom: 39px;
 }
+
 .process__description {
     color: var(--color-secondary);
     margin-bottom: 50px;
 }
+
 .process__video {
     border: none;
     width: 100%;
@@ -184,7 +186,7 @@ a {
 .footer__name {
     font-weight: 500;
     font-size: 21px;
-    line-height:var(--line-height-sm);
+    line-height: var(--line-height-sm);
     margin-bottom: 11px;
 }
 
