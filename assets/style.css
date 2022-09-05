@@ -79,18 +79,18 @@ body>* {
 }
 
 .block__item--wide1-block1 {
-    margin-right: calc(750px - 100px)
+margin-right: calc(950px - 15px);
 }
 
 
 .block__item--wide1-block2 {
-    margin-right: calc(-750px + 100px);
+    margin-right: calc(-700px + 45px);
 
 }
 
 .block__item--wide1-block3 {
-    margin-right:calc(-750px + 100px);
-    margin-top: 200px;
+margin-top: 200px;
+margin-right: calc(-700px + 45px);
 
 }
 
@@ -104,7 +104,7 @@ body>* {
 
 .block__item--wide2-block3 {
 margin-right: calc(-700px + 1em);
-margin-top:200px;
+margin-top:215px;
 }
 
 
